@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
+import { Plus_Jakarta_Sans } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+import "./globals.css";
+import MobileHeader from "@/components/Headers/MobileHeader";
+import Headers from "@/components/Headers/Headers";
+
+const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +19,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={jakarta.className}>
+        <div className="hidden md:block">
+          <Headers />
+        </div>
+        <div className="lg:hidden block">
+          <MobileHeader />
+        </div>
+        {children}
+      </body>
     </html>
   );
 }
