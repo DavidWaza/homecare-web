@@ -9,14 +9,17 @@ import Testimonial from "@/components/Testimonials/Testimonial";
 export default function Home() {
   return (
     <main className="bg-white">
-    
       <Banner />
-      <AboutSection />
+      <div className="hidden md:block">
+        <AboutSection />
+      </div>
       <HealthServices />
       <Values />
       <ContactSection />
       <Faq />
-      <Testimonial />
+      <div className="hidden md:block">
+        <Testimonial />
+      </div>
     </main>
   );
 }

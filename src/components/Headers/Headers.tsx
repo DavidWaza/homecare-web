@@ -22,7 +22,7 @@ const navlinks = [
 
 const Headers = () => {
   return (
-    <div className="py-5 px-10 md:px-[10rem] lg:px-[15rem]">
+    <div className="py-5 px-10 md:px-[10rem]">
       <div className="flex justify-between items-center">
         <div>
           <Link
