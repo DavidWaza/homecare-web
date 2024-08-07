@@ -27,32 +27,32 @@ const MobileNav = () => {
           </button>
         </div>
         <div
-          className={`w-full block flex-grow lg:flex lg:items-center lg:w-auto ${
+          className={`w-full block flex-grow lg:flex lg:items-center lg:w-auto px-6 ${
             isOpen ? "" : "hidden"
           }`}
         >
           <div className="text-sm lg:flex-grow">
             <Link
               href="/about"
-              className="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white mr-4"
+              className="block mt-4 lg:inline-block lg:mt-0 font-semibold text-[#228634] hover:text-white mr-4"
             >
               About Us
             </Link>
             <Link
               href="/services"
-              className="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white mr-4"
+              className="block mt-4 lg:inline-block lg:mt-0 font-semibold text-[#228634] hover:text-white mr-4"
             >
               Services
             </Link>
             <Link
               href="/contacts"
-              className="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white mr-4"
+              className="block mt-4 lg:inline-block lg:mt-0 font-semibold text-[#228634] hover:text-white mr-4"
             >
               Contacts
             </Link>
             <Link
               href="/career"
-              className="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white"
+              className="block mt-4 lg:inline-block lg:mt-0 font-semibold text-[#228634] hover:text-white"
             >
               Career
             </Link>
