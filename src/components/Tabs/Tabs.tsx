@@ -1,5 +1,6 @@
 import React from "react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import Link from "next/link";
 
 const TabComponent = () => {
   return (
@@ -23,7 +24,7 @@ const TabComponent = () => {
           the quality of life for our clients.
           <div className="py-10">
             <button className="py-3 px-10 text-white rounded-full bg-gradient-to-r from-[#32cd32] to-[#006400] !hover:bg-[#F2F8E3]">
-              See about us
+              <Link href="/About">See about us</Link>
             </button>
           </div>
         </TabsContent>
@@ -40,7 +41,7 @@ const TabComponent = () => {
           care.
           <div className="py-10">
             <button className="py-3 px-10 text-white rounded-full bg-gradient-to-r from-[#32cd32] to-[#006400] !hover:bg-[#F2F8E3]">
-              See about us
+              <Link href="/About">See about us</Link>
             </button>
           </div>
         </TabsContent>
@@ -56,7 +57,7 @@ const TabComponent = () => {
           activities to promote a holistic approach to health and happiness.
           <div className="py-10">
             <button className="py-3 px-10 text-white rounded-full bg-gradient-to-r to-[#32cd32] from-[#006400] !hover:bg-[#F2F8E3]">
-              See about us
+              <Link href="/About">See about us</Link>
             </button>
           </div>
         </TabsContent>

@@ -25,9 +25,12 @@ const Headers = () => {
     <div className="py-5 px-10 md:px-[10rem] lg:px-[15rem]">
       <div className="flex justify-between items-center">
         <div>
-          <p className="text-[#008732] text-[1rem] lg:text-[2rem] font-bold">
-            H3
-          </p>
+          <Link
+            href="/"
+            className="text-[#008732] text-[1rem] lg:text-[2rem] font-bold"
+          >
+            Ostat Aid
+          </Link>
         </div>
         <div className="flex gap-5">
           {navlinks.map(({ label, link }, index) => (

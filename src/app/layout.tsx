@@ -4,6 +4,7 @@ import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import MobileHeader from "@/components/Headers/MobileHeader";
 import Headers from "@/components/Headers/Headers";
+import Footer from "@/components/Footer/Footer";
 
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
@@ -27,6 +28,7 @@ export default function RootLayout({
           <MobileHeader />
         </div>
         {children}
+        <Footer />
       </body>
     </html>
   );
