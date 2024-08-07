@@ -120,7 +120,7 @@
 
 .service-bg {
   position: relative;
-  background-color: #228634;
+  background-color: black;
   background-image: url('/man-with-glasses.jpg');
   background-position: center;
   background-size: cover;
@@ -134,7 +134,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(34, 134, 52, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   pointer-events: none;
   z-index: 1;
 }
