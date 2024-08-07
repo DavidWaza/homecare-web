@@ -31,10 +31,10 @@ const MobileNav = () => {
             isOpen ? "" : "hidden"
           }`}
         >
-          <div className="text-sm lg:flex-grow">
+          <div className="text-sm lg:flex-grow ">
             <Link
               href="/about"
-              className="block mt-4 lg:inline-block lg:mt-0 font-semibold text-[#228634] hover:text-white mr-4"
+              className="block mt-4 lg:inline-block lg:mt-0 font-semibold text-[#228634] hover:text-white mr-4 "
             >
               About Us
             </Link>
