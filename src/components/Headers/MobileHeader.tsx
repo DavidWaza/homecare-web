@@ -33,7 +33,7 @@ const MobileNav = () => {
         >
           <div className="text-sm lg:flex-grow">
             <Link
-              href="/about-us"
+              href="/about"
               className="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white mr-4"
             >
               About Us
