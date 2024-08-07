@@ -1,5 +1,7 @@
+"use client";
 import Link from "next/link";
 import React from "react";
+import { usePathname } from "next/navigation";
 
 const navlinks = [
   {
@@ -21,6 +23,7 @@ const navlinks = [
 ];
 
 const Headers = () => {
+  const pathname = usePathname();
   return (
     <div className="py-5 px-10 md:px-[10rem]">
       <div className="flex justify-between items-center">
@@ -37,7 +40,9 @@ const Headers = () => {
             <>
               <Link
                 href={link}
-                className="text-[#008732] font-semibold hover:bg-[#F2F8E3] hover:font-bold transition-all ease-in-out py-3 px-10 rounded-full"
+                className={`text-[#008732] font-semibold hover:bg-[#F2F8E3] hover:font-bold transition-all ease-in-out py-3 px-10 rounded-full ${
+                  pathname === link ? "bg-[#F2F8E3]" : ""
+                }`}
               >
                 {label}
               </Link>
