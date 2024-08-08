@@ -26,7 +26,7 @@ const Testimonial = () => {
               opts={{
                 align: "start",
               }}
-              className="w-full "
+              className="md:w-full w-[100x] "
             >
               <CarouselContent>
                 {Array.from({ length: 5 }).map((_, index) => (

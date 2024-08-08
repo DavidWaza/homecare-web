@@ -2,20 +2,20 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section className="py-[10rem] px-10 md:px-[10rem] lg:pl-[15rem]">
+    <section className="py-10 lg:py-[10rem] px-10 md:px-[10rem] lg:pl-[15rem]">
       <div className="grid xl:grid-cols-2 md:gap-10">
-        <div className="flex gap-10 mb-60">
+        <div className="py-5">
           <Image
             src={"/black-mirror-man.jpg"}
             width={0}
             height={0}
             sizes="100vw"
-            className="w-full h-auto object-contain object-center rounded-se-[90px]"
+            className="w-full h-auto object-contain object-center"
             alt=""
           />
         </div>
-        <div className="mx-10">
-          <h1 className="text-5xl font-bold text-[#008732] mb-10">
+        <div className="flex flex-col justify-center space-y-4">
+          <h1 className="text-3xl font-semibold text-[#008732]">
             Our Passion
           </h1>
           <p className="text-lg">
@@ -31,9 +31,19 @@ export default function About() {
           </p>
         </div>
       </div>
-      <div className="grid xl:grid-cols-2 md:gap-10 mb-60">
-        <div className="mx-10">
-          <h1 className="text-5xl font-bold text-[#008732] mb-10">
+      <div className="grid xl:grid-cols-2 md:gap-10 py-10">
+      <div className=" block lg:hidden">
+          <Image
+            src={"/caregiver.jpg"}
+            width={0}
+            height={0}
+            sizes="100vw"
+            className="w-full h-auto object-contain object-center"
+            alt=""
+          />
+        </div>
+        <div className="flex flex-col justify-center space-y-4">
+          <h1 className="text-3xl font-semibold text-[#008732] py-5">
             Our Expertise
           </h1>
           <p className="text-lg">
@@ -49,30 +59,30 @@ export default function About() {
             advancements in elderly care.
           </p>
         </div>
-        <div className="flex gap-10">
+        <div className="hidden lg:block ">
           <Image
             src={"/caregiver.jpg"}
             width={0}
             height={0}
             sizes="100vw"
-            className="w-full h-auto object-contain object-center rounded-se-[90px]"
+            className="w-full h-auto object-contain object-center"
             alt=""
           />
         </div>
       </div>
       <div className="grid xl:grid-cols-2 md:gap-10">
-        <div className="flex gap-10 mb-60">
+        <div>
           <Image
             src={"/commitment.jpg"}
             width={0}
             height={0}
             sizes="100vw"
-            className="w-full h-auto object-contain object-center rounded-se-[90px]"
+            className="w-full h-auto object-contain object-center"
             alt=""
           />
         </div>
-        <div className="mx-10">
-          <h1 className="text-5xl font-bold text-[#008732] mb-10">
+        <div className="flex flex-col justify-center space-y-4">
+          <h1 className="text-3xl font-semibold text-[#008732] py-5">
             Our Commitments
           </h1>
           <p className="text-lg">

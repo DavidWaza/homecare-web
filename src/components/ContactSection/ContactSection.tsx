@@ -6,9 +6,9 @@ import { Button } from "../ui/button";
 
 const ContactSection = () => {
   return (
-    <div className="lg:w-[1000px] m-auto -mt-20 shadow-md border border-[#14421A] bg-white">
+    <div className="lg:w-[1000px] w-full md:pr-2 m-auto -mt-20 shadow-md border border-[#14421A] bg-white">
       <div className="grid lg:grid-cols-2">
-        <div className="col-span-1">
+        <div>
           <Image
             src={"/contact.webp"}
             alt=""
@@ -18,7 +18,7 @@ const ContactSection = () => {
             className="w-full h-auto object-contain object-center"
           />
         </div>
-        <div className="">
+        <div>
           <p className="text-lg text-[#14421A] uppercase p-5 font-semibold">
             Contact us for booking
           </p>

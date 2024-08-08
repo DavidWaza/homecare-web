@@ -6,7 +6,7 @@ const Banner = () => {
     <section className="pattern">
       <div className=" bg-[#fdfdfc] h-full pb-10 w-full slanted-div">
         <div className=" py-5 px-10 xl:px-[10rem] lg:px-[15rem]">
-          <div className="pt-[10rem]">
+          <div className="lg:pt-[10rem] py-5">
             <div>
               <p className="uppercase text-[#008732] font-semibold">
                 healthcare consulting partner.
