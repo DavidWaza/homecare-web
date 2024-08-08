@@ -6,7 +6,7 @@ import { Button } from "../ui/button";
 
 const ContactSection = () => {
   return (
-    <div className="lg:w-[1000px] w-full px-2 m-auto -mt-20 shadow-md border border-[#14421A] bg-white">
+    <div className="lg:w-[1000px] w-full md:pr-2 m-auto -mt-20 shadow-md border border-[#14421A] bg-white">
       <div className="grid lg:grid-cols-2">
         <div>
           <Image

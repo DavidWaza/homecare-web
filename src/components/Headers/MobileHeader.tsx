@@ -45,7 +45,7 @@ const MobileNav = () => {
               Services
             </Link>
             <Link
-              href="/contacts"
+              href="/contact"
               className="block mt-4 lg:inline-block lg:mt-0 font-semibold text-[#228634] hover:text-white mr-4"
             >
               Contacts
