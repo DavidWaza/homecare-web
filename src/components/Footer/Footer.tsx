@@ -44,7 +44,7 @@ export default function Footer() {
         </div>
         <div className="w-full max-w-screen-md flex lg:flex-row flex-col gap-4 justify-around">
           <div className="flex flex-col gap-4">
-            <h3 className="font-bold text-2xl mb-4">Quick Links</h3>
+            <h3 className="font-bold text-2xl mb-3">Quick Links</h3>
             <div className="lg:pl-4 flex flex-col gap-2">
               {footerLinks.map((item) => (
                 <div key={item.id}>
