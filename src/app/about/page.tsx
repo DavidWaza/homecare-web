@@ -15,9 +15,7 @@ export default function About() {
           />
         </div>
         <div className="flex flex-col justify-center space-y-4">
-          <h1 className="text-3xl font-semibold text-[#008732]">
-            Our Passion
-          </h1>
+          <h1 className="text-3xl font-semibold text-[#008732]">Our Passion</h1>
           <p className="text-lg">
             At Harmony, our passion for providing exceptional healthcare
             services to the elderly is at the heart of everything we do. We
@@ -32,7 +30,7 @@ export default function About() {
         </div>
       </div>
       <div className="grid xl:grid-cols-2 md:gap-10 py-10">
-      <div className=" block lg:hidden">
+        <div className=" block lg:hidden">
           <Image
             src={"/caregiver.jpg"}
             width={0}
