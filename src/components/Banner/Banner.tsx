@@ -3,7 +3,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <section className="pattern">
+    <section className="set-image pattern">
       <div className=" bg-[#fdfdfc] h-full pb-10 w-full slanted-div">
         <div className=" py-5 px-10 xl:px-[10rem] lg:px-[15rem]">
           <div className="lg:pt-[10rem] py-5">

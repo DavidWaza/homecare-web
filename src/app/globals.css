@@ -68,8 +68,9 @@
 }
 
 /* where the magic happens */
-.slanted-div:before, .slanted-div:after {
-  content: '';
+.slanted-div:before,
+.slanted-div:after {
+  content: "";
   width: 100%;
   height: 100%;
   position: absolute;
@@ -86,7 +87,6 @@
   transform: skewY(3deg);
 }
 
-
 .slanted-div div {
   /* text-align: center; */
   /* font-size: 1.5em; */
@@ -101,7 +101,7 @@
   z-index: 1;
 }
 .slanted-div-service {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   position: absolute;
@@ -112,7 +112,7 @@
   transform: skewY(-3deg);
 }
 .pattern {
-  background-image: url('/pattern.png');
+  background-image: url("/pattern.png");
   background-size: cover;
   background-position: center;
   /* height: 100vh; */
@@ -121,14 +121,13 @@
 .service-bg {
   position: relative;
   background-color: black;
-  background-image: url('/man-with-glasses.jpg');
+  background-image: url("/man-with-glasses.jpg");
   background-position: center;
   background-size: cover;
-
 }
 
 .service-bg::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -146,13 +145,13 @@
 .testimonial {
   position: relative;
   background-color: #228634;
-  background-image: url('/pattern.png');
+  background-image: url("/pattern.png");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
 .testimonial::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
