@@ -10,11 +10,11 @@ const MobileNav = () => {
     <nav className="bg-white p-4">
       <div className="flex items-center justify-between flex-wrap">
         <div className="flex items-center flex-shrink-0 text-[#228634] px-6">
-          <span className="font-semibold text-xl tracking-tight">
+          <Link href="/" className="font-semibold text-xl tracking-tight">
             Ostat Aid
-          </span>
+          </Link>
         </div>
-        <div className="block lg:hidden">
+        <div className="block  lg:hidden">
           {isOpen ? (
             <>
               {" "}
@@ -44,25 +44,25 @@ const MobileNav = () => {
           <div className="text-sm lg:flex-grow ">
             <Link
               href="/about"
-              className="block mt-4 lg:inline-block lg:mt-0 font-semibold text-[#228634] hover:text-white mr-4 "
+              className="block mt-4 lg:inline-block lg:mt-0 font-semibold text-[#228634] hover:text-green-500 mr-4 "
             >
               About Us
             </Link>
             <Link
               href="/services"
-              className="block mt-4 lg:inline-block lg:mt-0 font-semibold text-[#228634] hover:text-white mr-4"
+              className="block mt-4 lg:inline-block lg:mt-0 font-semibold text-[#228634] hover:text-green-500 mr-4"
             >
               Services
             </Link>
             <Link
               href="/contact"
-              className="block mt-4 lg:inline-block lg:mt-0 font-semibold text-[#228634] hover:text-white mr-4"
+              className="block mt-4 lg:inline-block lg:mt-0 font-semibold text-[#228634] hover:text-green-500 mr-4"
             >
               Contacts
             </Link>
             <Link
               href="/career"
-              className="block mt-4 lg:inline-block lg:mt-0 font-semibold text-[#228634] hover:text-white"
+              className="block mt-4 lg:inline-block lg:mt-0 font-semibold text-[#228634]  hover:text-green-500 mr-4"
             >
               Career
             </Link>

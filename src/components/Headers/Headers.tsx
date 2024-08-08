@@ -26,7 +26,7 @@ const Headers = () => {
   const pathname = usePathname();
   return (
     <div className="py-5 px-10 md:px-[10rem]">
-      <div className="flex justify-between items-center">
+      <div className="xl:flex xl:justify-between xl:items-center lg:flex lg:justify-between lg:items-center hidden">
         <div>
           <Link
             href="/"
