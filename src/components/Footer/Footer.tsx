@@ -33,9 +33,7 @@ export default function Footer() {
     <footer className="bg-[#1a431b]">
       <div className=" grid md:grid-cols-3 w-full h-full mx-auto selection text-white gap-8 justify-between py-20 md:px-[10rem] px-10">
         <div className="">
-          <h1 className="text-4xl font-medium mb-4 lg:block">
-            Ostat Aid
-          </h1>
+          <h1 className="text-4xl font-medium mb-4 lg:block">Ostat Aid</h1>
           <p className="mb-4 hidden lg:block text-sm">
             We believe in the power of diverse perspectives, we recognise that
             fostering an inclusive environment ensures that each and every voice
