@@ -27,7 +27,7 @@ export default function Services() {
       <h1 className="text-[#228634] text-5xl text-center font-semibold xl:mt-20 lg:mt-20 md:mt-5 mt-5">
         Our Services
       </h1>
-      <div className="flex justify-center flex-wrap">
+      <div className="hidden xl:flex xl:justify-center xl:flex-wrap xl:mb-40 lg:flex lg:justify-center lg:flex-wrap lg:mb-40 md:flex md:justify-center md:flex-wrap">
         {ServicesProp.map((item) => (
           <div key={item.id}>
             <ServicesCard title={item.title} description={item.description} />
@@ -35,19 +35,9 @@ export default function Services() {
         ))}
       </div>
 
-      <div className="grid xl:grid-cols-2 md:gap-10 py-10 mx-40 border-t border-green-400 border-solid mb-10">
-        <div className=" block lg:hidden">
-          <Image
-            src={"/caregiver.jpg"}
-            width={0}
-            height={0}
-            sizes="100vw"
-            className="w-full h-auto object-contain object-center rounded-lg"
-            alt=""
-          />
-        </div>
-        <div className="flex flex-col justify-center space-y-4">
-          <h1 className="text-3xl font-semibold text-[#008732] py-5">
+      <div className="grid xl:grid-cols-2 md:gap-10 py-10 xl:mx-40 lg:mx-40 md:mx-20  sm:mx-10 mx-7 border-t border-green-400 border-solid mb-10 mt-10">
+        <div className="flex flex-col justify-center space-y-4 mt-10">
+          <h1 className="text-3xl font-semibold text-[#008732]">
             Supportive Independent Living
           </h1>
           <p className="text-lg">
@@ -77,7 +67,7 @@ export default function Services() {
           />
         </div>
       </div>
-      <div className="grid xl:grid-cols-2 md:gap-10 mx-40 border-t border-green-400 border-solid mb-10">
+      <div className="grid xl:grid-cols-2 md:gap-10 xl:mx-40 lg:mx-40 md:mx-20 sm:mx-10 mx-7  border-t border-green-400 border-solid mb-10">
         <div className="py-5">
           <Image
             src={"/communityService.jpg"}
@@ -89,7 +79,7 @@ export default function Services() {
           />
         </div>
         <div className="flex flex-col justify-center space-y-4">
-          <h1 className="text-3xl font-semibold text-[#008732]">
+          <h1 className="text-3xl font-semibold text-[#008732] mt-10">
             Community Access
           </h1>
           <p className="text-lg">
@@ -109,19 +99,9 @@ export default function Services() {
           </p>
         </div>
       </div>
-      <div className="grid xl:grid-cols-2 md:gap-10 py-10 mx-40 border-t border-green-400 border-solid mb-10">
-        <div className=" block lg:hidden">
-          <Image
-            src={"/caregiver.jpg"}
-            width={0}
-            height={0}
-            sizes="100vw"
-            className="w-full h-auto object-contain object-center rounded-lg"
-            alt=""
-          />
-        </div>
-        <div className="flex flex-col justify-center space-y-4">
-          <h1 className="text-3xl font-semibold text-[#008732] py-5">
+      <div className="grid xl:grid-cols-2 md:gap-10 py-10 xl:mx-40 lg:mx-40 md:mx-20 sm:mx-10 mx-7 border-t border-green-400 border-solid mb-10">
+        <div className="flex flex-col justify-center space-y-4 mb-10">
+          <h1 className="text-3xl font-semibold text-[#008732]">
             Short Term Accommodation
           </h1>
           <p className="text-lg">
@@ -143,7 +123,7 @@ export default function Services() {
             possible.
           </p>
         </div>
-        <div className="hidden lg:block ">
+        <div className="block ">
           <Image
             src={"/ShortTermAccomodation.jpg"}
             width={0}
