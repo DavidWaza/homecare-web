@@ -15,8 +15,10 @@ export default function About() {
           />
         </div>
         <div className="flex flex-col justify-center space-y-4">
-          <h1 className="text-3xl font-semibold text-[#008732]">Our Passion</h1>
-          <p className="text-lg">
+          <h1 className="xl:text-3xl lg:text-3xl md:text-2xl sm:text-2xl text-xl font-semibold text-[#008732]">
+            Our Passion
+          </h1>
+          <p className="xl:text-lg lg:text-lg md:text-lg sm:text-base text-sm">
             At Harmony, our passion for providing exceptional healthcare
             services to the elderly is at the heart of everything we do. We
             believe that every senior deserves to live a life of dignity,
@@ -41,10 +43,10 @@ export default function About() {
           />
         </div>
         <div className="flex flex-col justify-center space-y-4">
-          <h1 className="text-3xl font-semibold text-[#008732] py-5">
+          <h1 className="xl:text-3xl lg:text-3xl md:text-2xl sm:text-2xl text-xl font-semibold text-[#008732] lg:py-5 pt-5">
             Our Expertise
           </h1>
-          <p className="text-lg">
+          <p className="xl:text-lg lg:text-lg md:text-lg sm:text-base text-sm">
             Commitment to excellence is our promise to you. We are unwavering in
             our dedication to providing the highest standard of care and
             support. Our commitment extends beyond just meeting the basic needs
@@ -80,10 +82,10 @@ export default function About() {
           />
         </div>
         <div className="flex flex-col justify-center space-y-4">
-          <h1 className="text-3xl font-semibold text-[#008732] py-5">
+          <h1 className="xl:text-3xl lg:text-3xl md:text-2xl sm:text-2xl text-xl font-semibold text-[#008732] lg:py-5 md:py-5 pt-5">
             Our Commitments
           </h1>
-          <p className="text-lg">
+          <p className="xl:text-lg lg:text-lg md:text-lg sm:text-base text-sm">
             With years of experience in the healthcare industry, our team of
             professionals brings a wealth of knowledge and expertise to the
             table. Our staff includes licensed nurses, experienced caregivers,

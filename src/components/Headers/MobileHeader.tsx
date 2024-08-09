@@ -46,7 +46,7 @@ const MobileNav = () => {
               href="/about"
               className="block mt-4 lg:inline-block lg:mt-0 font-semibold text-[#228634] hover:text-green-500 mr-4 "
             >
-              About Us
+              About
             </Link>
             <Link
               href="/services"
