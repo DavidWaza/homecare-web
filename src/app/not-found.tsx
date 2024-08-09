@@ -5,9 +5,13 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { fadeAnimation } from "@/components/Animation/Animation";
 
+export const metadata = {
+  title: "Comming Soon",
+};
+
 export default function NotFoundPage() {
   useEffect(() => {
-    document.title = "Error";
+    document.title = "Comming Soon";
     window.scrollTo(0, 0);
   }, []);
 
@@ -30,7 +34,7 @@ export default function NotFoundPage() {
           custom={2}
           className="font-errorFont text-[green] text-[1.5rem] lg:text-[2rem] mb-6"
         >
-          PAGE NOT FOUND
+          Comming Soon ...
         </motion.h1>
         <Link href="/">
           <motion.div
