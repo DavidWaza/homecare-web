@@ -1,5 +1,9 @@
 import Image from "next/image";
 
+export const metadata = {
+  title: "About Us",
+};
+
 export default function About() {
   return (
     <section className="py-10 lg:py-[10rem] px-10 md:px-[10rem] lg:pl-[15rem]">

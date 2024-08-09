@@ -5,6 +5,10 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 
+export const metadata = {
+  title: "Contact Us",
+};
+
 export default function Contact() {
   return (
     <section className="py-20 md:px-20">

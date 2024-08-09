@@ -1,6 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import ServicesCard from "@/components/ServicesCard/ServicesCard";
+
+export const metadata = {
+  title: "Our Services",
+};
+
 export default function Services() {
   const ServicesProp = [
     {
