@@ -62,12 +62,25 @@ export default function Footer() {
             </div>
           </div>
         </div>
+        <div className="space-y-10">
         <div className="box w-full flex flex-col lg:gap-4 gap-2">
           <h3 className="font-semibold">Contact Info</h3>
           <div>
-            <p className="text-sm">Lekki face 1, Lekki, Lagos 101245, NG</p>
+            <p className="text-sm underline">
+              Apt 1208 60 absolute avenue, Mississauga, Ontario Canada
+            </p>
           </div>
         </div>
+        <div className="box w-full flex flex-col lg:gap-4 gap-2">
+          <h3 className="font-semibold">Contact number</h3>
+          <div>
+            <p className="text-sm underline">
+            +14374364707
+            </p>
+          </div>
+        </div>
+        </div>
+     
       </div>
     </footer>
   );
