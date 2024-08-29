@@ -12,10 +12,10 @@ const navlinks = [
     link: "/services",
     label: "Services",
   },
-  {
-    link: "/career",
-    label: "Career",
-  },
+  // {
+  //   link: "/career",
+  //   label: "Career",
+  // },
   {
     link: "/contact",
     label: "Contact",

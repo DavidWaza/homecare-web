@@ -46,15 +46,12 @@ const TabComponent = () => {
           </div>
         </TabsContent>
         <TabsContent value="commit">
-          With years of experience in the healthcare industry, our team of
-          professionals brings a wealth of knowledge and expertise to the table.
-          Our staff includes licensed nurses, experienced caregivers, and
-          healthcare specialists who are trained to handle a wide range of
-          medical conditions and needs. We employ evidence-based practices and
-          state-of-the-art technology to deliver effective and efficient care.
-          Our expertise is not just limited to medical care; we also offer
-          support in daily living activities, companionship, and recreational
-          activities to promote a holistic approach to health and happiness.
+          At Ostat Aid, compassion, respect, and professionalism are at the
+          heart of what we do. Our carefully selected and trained caregivers
+          provide exceptional care, ensuring every client receives the attention
+          and dignity they deserve. Whether for short-term or long-term care,
+          Ostat Aid is your reliable partner in quality caregiving,
+          wherever you are.
           <div className="py-10">
             <button className="py-3 px-10 text-white rounded-full bg-gradient-to-r to-[#32cd32] from-[#006400] !hover:bg-[#F2F8E3]">
               <Link href="/About">See about us</Link>
