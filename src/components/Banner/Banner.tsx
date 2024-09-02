@@ -3,26 +3,27 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <section className="set-image pattern">
-      <div className=" bg-[#fdfdfc] h-full pb-10 w-full slanted-div">
-        <div className=" py-5 px-10 xl:px-[10rem] lg:px-[15rem]">
-          <div className="lg:pt-[10rem] py-5">
-            <div>
-              <p className="uppercase text-[#008732] font-semibold">
-                homecare consulting partner.
+    <section className="">
+      <div className="  h-full py-10 w-full bg-hero">
+        <div className=" px-10 xl:px-[10rem] lg:px-[15rem] ">
+          <div className="lg:pt-[5rem] pt-20">
+            <div className="content">
+              <p className="uppercase text-white font-medium md:font-semibold text-sm">
+                Your Trusted Homecare Consulting Partner
               </p>
-              <p className="uppercase text-[#0C4219] font-semibold md:leading-[80px] text-[2rem] w-full lg:text-[4rem] lg:w-[80%] oswald">
-                We are Dedicated Empowering Healthcare Excellence.
+              <p className="uppercase text-white font-semibold text-[32px] md:leading-[70px] leading-[40px] w-full lg:text-[4rem] lg:w-[80%] oswald">
+                We are Dedicated to Empowering Homecare Excellence
               </p>
-              <p className="uppercase text-[#008732] text-sm font-medium md:w-1/2">
-                Supporting healthcare professionals with expert guidance for
-                superior patient care.
+              <p className="uppercase text-white text-sm font-medium md:w-1/2 leading-[20px] pt-5">
+                Providing expert guidance to elevate the quality of care for
+                homecare professionals and their patients.
               </p>
+
               <div className="py-10 flex gap-6 items-center">
-                <button className="py-3 border px-5 md:px-10 rounded-full text-white text-nowrap text-center bg-[#008732] hover:bg-[#F2F8E3]  hover:border-[#008732] hover:text-[#008732] transition-all ease-in-out">
+                <button className="py-3 border px-5 md:px-10 rounded-full border-none text-white text-nowrap text-center bg-[#008732] hover:bg-[#F2F8E3]  hover:border-[#008732] hover:text-[#008732] transition-all ease-in-out">
                   Our services
                 </button>
-                <button className="py-3 border border-[#008732] px-5 md:px-10 text-nowrap text-[#008732] rounded-full text-center bg-transparent hover:bg-[#F2F8E3]  hover:border-[#008732] hover:text-[#008732] transition-all ease-in-out">
+                <button className="py-3 border border-[#008732] px-5 md:px-10 text-nowrap text-[#008732] rounded-full text-center bg-[#F2F8E3]  hover:border-[#008732] hover:text-[#008732] transition-all ease-in-out">
                   Learn more
                 </button>
               </div>

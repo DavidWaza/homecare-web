@@ -4,7 +4,7 @@ import TabComponent from "../Tabs/Tabs";
 
 const AboutSection = () => {
   return (
-    <div className="py-[10rem] px-10 md:px-[10rem] lg:pl-[15rem]">
+    <div className="py-[10rem] px-10 md:px-[10rem]">
       <div className="grid xl:grid-cols-2 md:gap-10">
         <div className="flex gap-10">
           <Image

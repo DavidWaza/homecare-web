@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { title } from "process";
 
 export default function Footer() {
   const footerLinks = [
@@ -29,10 +28,11 @@ export default function Footer() {
       path: "/contact",
     },
   ];
+
   return (
     <footer className="bg-[#1a431b]">
-      <div className=" grid md:grid-cols-3 w-full h-full mx-auto selection text-white gap-8 justify-between py-20 md:px-[10rem] px-10">
-        <div className="">
+      <div className="grid md:grid-cols-3 w-full h-full mx-auto selection text-white gap-8 justify-between py-20 md:px-[10rem] px-10">
+        <div>
           <h1 className="text-4xl font-medium mb-4 lg:block">Ostat Aid</h1>
           <p className="mb-4 hidden lg:block text-sm">
             We believe in the power of diverse perspectives, we recognise that
@@ -63,24 +63,47 @@ export default function Footer() {
           </div>
         </div>
         <div className="space-y-10">
-        <div className="box w-full flex flex-col lg:gap-4 gap-2">
-          <h3 className="font-semibold">Contact Info</h3>
-          <div>
-            <p className="text-sm underline">
-              Apt 1208 60 absolute avenue, Mississauga, Ontario Canada
-            </p>
+          <div className="box w-full flex flex-col lg:gap-4 gap-2">
+            <h3 className="font-semibold">Contact Info</h3>
+            <div>
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=60+absolute+avenue,+Mississauga,+Ontario,+Canada"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm underline"
+              >
+                Apt 1208 60 Absolute Avenue, Mississauga, Ontario Canada
+              </a>
+            </div>
+          </div>
+          <div className="box w-full flex flex-col lg:gap-4 gap-2">
+            <h3 className="font-semibold">Contact number</h3>
+            <div>
+              <a href="tel:+14374364707" className="text-sm underline">
+                +1 437-436-4707
+              </a>
+            </div>
+          </div>
+          <div className="box w-full flex flex-col lg:gap-4 gap-2">
+            <h3 className="font-semibold">Contact email</h3>
+            <div>
+              <a
+                href="mailto:contact@ostataide.com"
+                className="text-sm underline"
+              >
+                contact@ostataide.com
+              </a>
+            </div>
           </div>
         </div>
-        <div className="box w-full flex flex-col lg:gap-4 gap-2">
-          <h3 className="font-semibold">Contact number</h3>
-          <div>
-            <p className="text-sm underline">
-            +14374364707
-            </p>
+        <div>
+          <p className="font-semibold py-2">Business Hours</p>
+          <div className="space-y-3">
+            <p>Monday - Friday: 9:00 AM - 6:00 PM </p>
+            <p>Saturday: 10:00 AM - 4:00 PM </p>
+            <p>Sunday: Closed</p>
           </div>
         </div>
-        </div>
-     
       </div>
     </footer>
   );

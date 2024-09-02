@@ -51,7 +51,7 @@ const HealthServices = () => {
                     className="text-[#F2F8E3] group-hover:text-black animate-pulse"
                   />
                   <p className="text-sm md:text-lg font-semibold text-[#F2F8E3] group-hover:text-black">
-                    Suportive independent living(SIL)
+                    Disability Support
                   </p>
                 </Link>
               </div>
@@ -62,7 +62,7 @@ const HealthServices = () => {
                     className="text-[#F2F8E3] group-hover:text-black animate-pulse"
                   />
                   <p className="text-sm md:text-lg font-semibold text-[#F2F8E3] group-hover:text-black">
-                    Community Access
+                    Elderly Care
                   </p>
                 </Link>
               </div>
@@ -72,9 +72,9 @@ const HealthServices = () => {
                     size={30}
                     className="text-[#F2F8E3] group-hover:text-black animate-pulse"
                   />
-
+                 
                   <p className="text-sm md:text-lg font-semibold text-[#F2F8E3] group-hover:text-black">
-                    Short term Accomodation
+                  Personal Services
                   </p>
                 </Link>
               </div>
@@ -86,7 +86,7 @@ const HealthServices = () => {
                   />
 
                   <p className="text-sm md:text-lg font-semibold text-[#F2F8E3] group-hover:text-black">
-                    In-home support
+                    Post-Operative Care
                   </p>
                 </Link>
               </div>

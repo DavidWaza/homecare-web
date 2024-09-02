@@ -15,7 +15,6 @@ export default function Home() {
       <div className="hidden md:block">
         <AboutSection />
       </div>
-      
       <HealthServices />
       <Values />
       <ContactSection />

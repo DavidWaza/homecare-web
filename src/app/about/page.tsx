@@ -1,12 +1,35 @@
+import { CircleCheckBig } from "lucide-react";
 import Image from "next/image";
 
 export const metadata = {
   title: "About Us",
 };
 
+const homecareMedicalList = [
+  `Compassionate Care:Treating each client with dignity, kindness, and 
+understanding.`,
+  ` Professional Excellence:Maintaining the highest standards in training, 
+service delivery, and client care.`,
+  `Client-Centered Approach:Tailoring our services to the individual needs of 
+each client, ensuring their comfort, safety, and independence.`,
+];
+
 export default function About() {
   return (
     <section className="py-10 lg:py-[10rem] px-10 md:px-[10rem] lg:pl-[15rem]">
+      <div className="py-10 space-y-3">
+        <h1 className="xl:text-3xl lg:text-3xl md:text-2xl sm:text-2xl text-xl font-semibold text-[#008732] py-2">
+          Our Story
+        </h1>
+        <p className="xl:text-lg lg:text-lg md:text-lg sm:text-base text-sm">
+          At <span className="text-[#008732] font-semibold uppercase">OstatAid</span>, we understand the importance of feeling safe,
+          comfortable, and cared for at home. our mission is to provide
+          top-quality, personalized home care services that make a positive
+          difference in our client&apos;s lives. Inspired by our passion for
+          caring for others, we are dedicated to offering support with
+          compassion, respect, and professionalism.
+        </p>
+      </div>
       <div className="grid xl:grid-cols-2 md:gap-10">
         <div className="py-5">
           <Image
@@ -100,6 +123,31 @@ export default function About() {
             support in daily living activities, companionship, and recreational
             activities to promote a holistic approach to health and happiness.
           </p>
+        </div>
+      </div>
+      <div className="py-10">
+        <div className="service-bg p-10">
+          <div className="content">
+            <h1 className="xl:text-3xl lg:text-3xl md:text-2xl sm:text-2xl text-xl font-semibold text-white">
+              Our Mission and Values
+            </h1>
+            <p className=" text-lg font-medium text-[#F2F8E3] lg:py-5 md:py-5 pt-5">
+            Our mission is to enhance the quality of life for every client by providing 
+            exceptional care that meets their unique needs. We are committed to:
+            </p>
+            <div>
+              <div className="py-10 space-y-4">
+                {homecareMedicalList.map((item, index) => (
+                  <>
+                    <div className="flex item-center gap-2">
+                      <CircleCheckBig className="text-[#F2F8E3]" />
+                      <p className="text-[#F2F8E3]">{item}</p>
+                    </div>
+                  </>
+                ))}
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

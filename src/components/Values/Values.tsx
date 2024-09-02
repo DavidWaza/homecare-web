@@ -2,35 +2,28 @@ import React from "react";
 
 const valuesData = [
   {
-    title: "empathy",
-    desc: `Empathy becomes a powerful tool that not only helps us understand
-              but also enables us to deeply connect with the unique needs and
-              experiences of individuals with disabilities. As a compassionate
-              organisation looking to make a difference, we embracing empathy
-              and foster a genuine sense of understanding and support, paving
-              the way for meaningful change and empowerment within the
-              disability community.`,
+    title: "Empathy",
+    desc: `Empathy is at the heart of our homecare services. We deeply understand and connect with the unique needs of each individual we serve, ensuring that our care is not only effective but also compassionate. By embracing empathy, we create a nurturing environment where our clients feel valued, understood, and genuinely cared for.`,
   },
   {
-    title: "INCLUSIVITY",
-    desc: `We believe in the power of diverse perspectives, we recognise that fostering an inclusive environment ensures that each and every voice is not only heard but also thoughtfully considered. By championing inclusivity, we create a space where all individuals, regardless of their background or abilities, can actively participate, contribute their ideas, and together, shape a more inclusive and equitable future for everyone.`,
-  },
-
-  {
-    title: "ADVOCACY",
-    desc: `As passionate advocates for disability rights, we understand that advocacy serves as a driving force behind positive change, igniting awareness and understanding of the rights and needs of individuals with disabilities. By lending our voice to the cause, we play a vital role in breaking barriers, challenging misconceptions, and creating a more inclusive society where every individual's rights are respected and upheld, sparking a ripple effect of transformative change.`,
+    title: "Inclusivity",
+    desc: `We are committed to fostering an inclusive homecare environment where every individual, regardless of their background or abilities, feels respected and welcomed. By valuing diverse perspectives, we ensure that each voice is heard and every need is met, making our care more personalized and impactful.`,
   },
   {
-    title: "EMPOWERMENT",
-    desc: `Empowerment plays a pivotal role in helping individuals with disabilities achieve true independence and unwavering confidence. By fostering an environment that nurtures their strengths and capabilities, we intend to empower them to overcome challenges and embrace their unique abilities. Our unwavering support and belief in their potential becomes a guiding light, paving the way for them to navigate life with newfound resilience, self-assurance, and a sense of purpose making a lasting impact on lives and the world around them.`,
+    title: "Advocacy",
+    desc: `As advocates for our clients, we actively promote their rights and needs, ensuring they receive the care and support they deserve. Through our advocacy, we strive to break down barriers and challenge misconceptions, creating a more inclusive society where everyone can thrive.`,
   },
   {
-    title: "COLLABORATION",
-    desc: `By forming partnerships and collaborating with individuals with disabilities and organizations with similar interests, we form a powerful force for positive transformation. Our commitment to collaboration enables us to draw on collective resources, expertise, and experience, to foster a more equitable and compassionate society for all. By working together, we can create an impact that goes beyond what can be achieved on our own, leaving a legacy of harmony and advancement for future generations.`,
+    title: "Empowerment",
+    desc: `We believe in empowering our clients to live as independently as possible, with confidence and dignity. By providing the support they need to overcome challenges, we help them embrace their abilities and achieve their goals, leading to a more fulfilling life.`,
   },
   {
-    title: "RESPECT",
-    desc: `Respect means seeing the inherent dignity and autonomy people possess. We understand the importance of treating people with genuine courtesy, appreciating the uniqueness of their choices, and actively involving them in decisions related to their care and support. By prioritizing our voice and agency, we intend to create an environment where individuals with disabilities feel valued, empowered, and respected, fostering a sense of belonging and ensuring that their needs and preferences are at the heart of every decision made.`,
+    title: "Collaboration",
+    desc: `Collaboration is key to delivering the highest quality of care. By working closely with our clients, their families, and other healthcare professionals, we ensure a comprehensive approach that addresses all aspects of our clients' well-being. Together, we create a network of support that enhances the care experience.`,
+  },
+  {
+    title: "Respect",
+    desc: `Respect is the foundation of our care. We honor the dignity and autonomy of each person, involving them in every decision related to their care. By prioritizing their preferences and needs, we create a supportive environment where our clients feel valued and respected, fostering trust and well-being.`,
   },
 ];
 const Values = () => {
@@ -60,7 +53,6 @@ const Values = () => {
                     {title}
                   </p>
                 </div>
-
                 <p className="text-sm font-medium text-[#14421A] py-5 group-hover:text-[#F2F8E3]">
                   {desc}
                 </p>

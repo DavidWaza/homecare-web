@@ -5,7 +5,7 @@ import Link from "next/link";
 const TabComponent = () => {
   return (
     <div>
-      <Tabs defaultValue="account" className="xl:w-full md:w-[400px] w-[400px]">
+      <Tabs defaultValue="passion" className="xl:w-full md:w-[400px] w-[400px]">
         <TabsList>
           <TabsTrigger value="passion" defaultChecked>
             The Passion
@@ -14,7 +14,7 @@ const TabComponent = () => {
           <TabsTrigger value="commit">The Commitment</TabsTrigger>
         </TabsList>
         <TabsContent value="passion">
-          At Harmony, our passion for providing exceptional healthcare services
+          At Ostat Aid, our passion for providing exceptional homecare services
           to the elderly is at the heart of everything we do. We believe that
           every senior deserves to live a life of dignity, comfort, and joy. Our
           dedicated team is inspired by the stories and experiences of the older
