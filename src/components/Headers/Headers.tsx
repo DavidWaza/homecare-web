@@ -2,6 +2,7 @@
 import Link from "next/link";
 import React from "react";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 const navlinks = [
   {
@@ -32,7 +33,14 @@ const Headers = () => {
             href="/"
             className="text-[#008732] text-[1rem] lg:text-[2rem] font-bold"
           >
-            Ostat Aid
+            <Image
+              src={'/logo.png'}
+              width={0}
+              height={0}
+              alt="logo"
+              sizes="100vw"
+              className="w-[20%] h-auto object-center object-contain"
+            />
           </Link>
         </div>
         <div className="flex gap-5">

@@ -9,12 +9,12 @@ import Link from "next/link";
 import React from "react";
 
 const homecareMedicalList = [
-  "Routine & medical Care",
-  "Healtcare Services",
-  "Save the children",
-  "State of the act facilities",
-  "Expertise in healthcare dynamics",
-  "Proven track records of success",
+  "Routine & Personal Care",
+  "Home Care Services",
+  "Supporting Families & Children",
+  "State-of-the-Art Home Care Facilities",
+  "Expertise in Home Care Dynamics",
+  "Proven Track Record of Success in Home Care",
 ];
 const HealthServices = () => {
   return (

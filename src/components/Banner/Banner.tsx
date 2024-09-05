@@ -3,10 +3,10 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <section className="">
-      <div className="  h-full py-10 w-full bg-hero">
+    <section className="bg-hero">
+      <div className="  h-full py-10 w-full ">
         <div className=" px-10 xl:px-[10rem] lg:px-[15rem] ">
-          <div className="lg:pt-[5rem] pt-20">
+          <div className="lg:pt-[5rem] pt-10">
             <div className="content">
               <p className="uppercase text-white font-medium md:font-semibold text-sm">
                 Your Trusted Homecare Consulting Partner

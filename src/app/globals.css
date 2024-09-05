@@ -177,8 +177,9 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
-  padding: 0 20px;
+  /* min-height: 100vh; */
+  padding: 30px 20px;
+  z-index: 1;
 }
 
 .bg-hero .content {
@@ -216,7 +217,7 @@
 /* Small Devices (Mobile Phones) */
 @media (max-width: 480px) {
   .bg-hero {
-    height: 60vh;
+    height: 80vh;
     padding: 0 10px;
   }
 

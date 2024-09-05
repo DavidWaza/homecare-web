@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
@@ -17,11 +18,7 @@ export default function Footer() {
       title: "Services",
       path: "/services",
     },
-    {
-      id: 4,
-      title: "Career",
-      path: "/Career",
-    },
+
     {
       id: 5,
       title: "Contact Us",
@@ -33,7 +30,14 @@ export default function Footer() {
     <footer className="bg-[#1a431b]">
       <div className="grid md:grid-cols-3 w-full h-full mx-auto selection text-white gap-8 justify-between py-20 md:px-[10rem] px-10">
         <div>
-          <h1 className="text-4xl font-medium mb-4 lg:block">Ostat Aid</h1>
+          <Image
+            src={"/LOGO WHITE.svg"}
+            alt=""
+            width={0}
+            height={0}
+            sizes="100vw"
+            className="w-[20%] h-auto object-contain object-center"
+          />
           <p className="mb-4 hidden lg:block text-sm">
             We believe in the power of diverse perspectives, we recognise that
             fostering an inclusive environment ensures that each and every voice
@@ -72,7 +76,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="text-sm underline"
               >
-                Apt 1208 60 Absolute Avenue, Mississauga, Ontario Canada
+                60 Absolute Avenue, Mississauga, Ontario Canada
               </a>
             </div>
           </div>
@@ -99,9 +103,7 @@ export default function Footer() {
         <div>
           <p className="font-semibold py-2">Business Hours</p>
           <div className="space-y-3">
-            <p>Monday - Friday: 9:00 AM - 6:00 PM </p>
-            <p>Saturday: 10:00 AM - 4:00 PM </p>
-            <p>Sunday: Closed</p>
+            <p>Monday - Sunday: 24/7</p>
           </div>
         </div>
       </div>

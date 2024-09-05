@@ -46,11 +46,11 @@ export default function About() {
             Our Passion
           </h1>
           <p className="xl:text-lg lg:text-lg md:text-lg sm:text-base text-sm">
-            At Harmony, our passion for providing exceptional healthcare
+            At Harmony, our passion for providing exceptional homecare
             services to the elderly is at the heart of everything we do. We
             believe that every senior deserves to live a life of dignity,
             comfort, and joy. Our dedicated team is inspired by the stories and
-            experiences of the older generation, and we are driven to make a
+            experiences of the elderly, and we are driven to make a
             positive impact on their lives. We understand the unique needs and
             challenges that come with aging, and our mission is to offer
             compassionate care that enhances the quality of life for our
@@ -113,10 +113,10 @@ export default function About() {
             Our Commitments
           </h1>
           <p className="xl:text-lg lg:text-lg md:text-lg sm:text-base text-sm">
-            With years of experience in the healthcare industry, our team of
+            With years of experience in the homecare industry, our team of
             professionals brings a wealth of knowledge and expertise to the
             table. Our staff includes licensed nurses, experienced caregivers,
-            and healthcare specialists who are trained to handle a wide range of
+            and homecare specialists who are trained to handle a wide range of
             medical conditions and needs. We employ evidence-based practices and
             state-of-the-art technology to deliver effective and efficient care.
             Our expertise is not just limited to medical care; we also offer

@@ -57,7 +57,9 @@ const Faq = () => {
           <AccordionTrigger>What areas do you serve?</AccordionTrigger>
           <AccordionContent>
             We proudly serve the Mississauga, Canada, area, providing in-home
-            care services to clients in the surrounding communities.
+            care services to clients in the surrounding communities. Our office
+            is based in the Greater Toronto Area (GTA), allowing us to extend
+            our care to patients throughout Ontario.
           </AccordionContent>
         </AccordionItem>
       </Accordion>
