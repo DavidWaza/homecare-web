@@ -42,9 +42,9 @@ const Values = () => {
       </p>
       <div className=" grid md:grid-cols-2 gap-10 lg:grid-cols-3 py-20">
         {valuesData.map(({ title, desc }, index) => (
-          <div key={index}>
-            <div className="group">
-              <div className="border border-[#14421A] rounded-lg py-10 px-5 group-hover:bg-[#14421A] transistion-all ease-in-out">
+          <div key={index} className="flex">
+            <div className="group flex-1">
+              <div className="border border-[#14421A] rounded-lg py-10 px-5 group-hover:bg-[#14421A] transition-all ease-in-out flex flex-col h-full">
                 <div className="flex items-center gap-3">
                   <p className="bg-[#1A421B] group-hover:bg-[#F2F8E3] rounded-full flex text-center text-[#F2F8E3] group-hover:text-[#1A421B] justify-center h-7 w-7">
                     {index + 1}
@@ -53,7 +53,7 @@ const Values = () => {
                     {title}
                   </p>
                 </div>
-                <p className="text-sm font-medium text-[#14421A] py-5 group-hover:text-[#F2F8E3]">
+                <p className="text-sm font-medium text-[#14421A] py-5 group-hover:text-[#F2F8E3] flex-grow">
                   {desc}
                 </p>
               </div>
