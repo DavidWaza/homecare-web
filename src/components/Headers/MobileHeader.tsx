@@ -14,7 +14,7 @@ const MobileNav = () => {
         <div className="flex items-center flex-shrink-0 text-[#228634]">
           <Link href="/" className="font-semibold text-xl tracking-tight">
             <Image
-              src={"/LOGO RGB.svg"}
+              src={"/LOGO-RGB.svg"}
               width={0}
               height={0}
               alt="logo"

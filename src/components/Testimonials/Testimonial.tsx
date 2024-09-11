@@ -7,30 +7,38 @@ import {
   CarouselPrevious,
 } from "../ui/carousel";
 import { Card, CardContent, CardFooter } from "../ui/card";
+import Image from "next/image";
 
 const TestimonialData = [
   {
     desc: `At Ostat Aid, we take pride in providing compassionate and professional home care services that truly make a difference in the lives of our clients. Here’s what some of our clients and their families have to say about their experiences with us:`,
     name: "David Waza",
-    title: "CEO, BINARY GROUPS.",
+    title: "CEO, Binary groups.",
+    img: '/av.jpg'
   },
   {
     desc: `"A Lifeline for Our Family"
 "The care and attention provided by OstatAid have been a true lifeline for our family. The team is incredibly compassionate, reliable, and professional. They’ve helped my mother feel more comfortable and secure at home, and we couldn’t be happier with the support they provide."`,
     name: "Emily W.",
     title: "Daughter of a Client",
+    img: '/av-2.jpg'
+
   },
   {
     desc: `"Exceptional Post-Operative Care"
 "After my surgery, I needed help with daily tasks. The caregivers from OstatAid were wonderful—they made my recovery process smooth and stress-free. They were attentive, knowledgeable, and always available to assist with any of my needs. I highly recommend them."`,
     name: `John P.`,
     title: "Client",
+    img: '/av-3.jpg'
+
   },
   {
     desc: `"Kind and Caring Professionals"
 "We are so grateful for the wonderful care OstatAid has provided for my father. The caregivers are always punctual, respectful, and genuinely caring. They have made such a positive impact on his well-being and happiness. Thank you for your dedication to quality care!"`,
     name: "Sarah M.",
     title: `Daughter of a Client`,
+    img: '/av.jpg'
+
   },
   {
     desc: `"Support Beyond Expectations”
@@ -38,6 +46,8 @@ const TestimonialData = [
 daily routines. The staff is always friendly, patient, and accommodating. They have truly become like family to us."`,
     name: "Michael L",
     title: "Father of Client",
+    img: '/av-2.jpg'
+
   },
 ];
 
@@ -78,7 +88,16 @@ const Testimonial = () => {
                           </span>
                         </CardContent>
                         <CardFooter className="flex justify-between items-center">
-                          <div className="h-10 w-10 p-2 rounded-full bg-slate-200"></div>
+                          <div className="h-10 w-10 p-2 rounded-full bg-slate-200">
+                            <Image
+                              src={testimonial.img}
+                              width={0}
+                              height={0}
+                              alt="logo"
+                              sizes="100vw"
+                              className="w-full h-auto object-center object-contain rounded-full"
+                            />
+                          </div>
                           <div>
                             <h1 className="font-semibold">
                               {testimonial.name}
