@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
-
+import { motion } from "framer-motion";
 const navlinks = [
   {
     link: "/about",
@@ -34,7 +34,7 @@ const Headers = () => {
             className="text-[#008732] text-[1rem] lg:text-[2rem] font-bold"
           >
             <Image
-              src={'/logo.png'}
+              src={"/logo.png"}
               width={0}
               height={0}
               alt="logo"
@@ -45,7 +45,7 @@ const Headers = () => {
         </div>
         <div className="flex gap-5">
           {navlinks.map(({ label, link }, index) => (
-            <>
+            <motion.div whileHover={{ scale: 1.1 }} key={index}>
               <Link
                 href={link}
                 className={`text-[#008732] font-semibold hover:bg-[#F2F8E3] hover:font-bold transition-all ease-in-out py-3 px-10 rounded-full ${
@@ -54,7 +54,7 @@ const Headers = () => {
               >
                 {label}
               </Link>
-            </>
+            </motion.div>
           ))}
         </div>
         <div>

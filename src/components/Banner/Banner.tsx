@@ -1,5 +1,7 @@
-import Image from "next/image";
+"use client";
+
 import React from "react";
+import { motion } from "framer-motion";
 
 const Banner = () => {
   return (
@@ -20,12 +22,16 @@ const Banner = () => {
               </p>
 
               <div className="py-10 flex gap-6 items-center">
-                <button className="py-3 border px-5 md:px-10 rounded-full border-none text-white text-nowrap text-center bg-[#008732] hover:bg-[#F2F8E3]  hover:border-[#008732] hover:text-[#008732] transition-all ease-in-out">
-                  Our services
-                </button>
-                <button className="py-3 border border-[#008732] px-5 md:px-10 text-nowrap text-[#008732] rounded-full text-center bg-[#F2F8E3]  hover:border-[#008732] hover:text-[#008732] transition-all ease-in-out">
-                  Learn more
-                </button>
+                <motion.div whileHover={{ scale: 1.1 }}>
+                  <button className="py-3 border px-5 md:px-10 rounded-full border-none text-white text-nowrap text-center bg-[#008732] hover:bg-[#F2F8E3]  hover:border-[#008732] hover:text-[#008732] transition-all ease-in-out">
+                    Our services
+                  </button>
+                </motion.div>
+                <motion.div whileHover={{ scale: 1.1 }}>
+                  <button className="py-3 border border-[#008732] px-5 md:px-10 text-nowrap text-[#008732] rounded-full text-center bg-[#F2F8E3]  hover:border-[#008732] hover:text-[#008732] transition-all ease-in-out">
+                    Learn more
+                  </button>
+                </motion.div>
               </div>
             </div>
           </div>

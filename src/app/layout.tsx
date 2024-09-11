@@ -5,6 +5,7 @@ import "./globals.css";
 import MobileHeader from "@/components/Headers/MobileHeader";
 import Headers from "@/components/Headers/Headers";
 import Footer from "@/components/Footer/Footer";
+import PageWrapper from "@/components/PageWrapper/PageWrapper";
 
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
@@ -27,7 +28,7 @@ export default function RootLayout({
         <div className="lg:hidden block">
           <MobileHeader />
         </div>
-        {children}
+        <PageWrapper>{children}</PageWrapper>
         <Footer />
       </body>
     </html>
